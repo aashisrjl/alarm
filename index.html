@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alarm clock</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            Alarm Clock
+        </header>
+    <div id="clock">
+    </div>
+    <label for="time">Set minute for your alarm </label>
+    <input id="enter" type="number" placeholder="Enter minute">
+    <label for="time">Your text for alarm</label>
+    <input  id="speech" type="textarea" placeholder="Enter message">
+    <select name="audio" id="select">
+        <option value=
+        "https://interactive-examples.mdn.mozilla.net/media/cc0-audio/t-rex-roar.mp3"
+        >roar</option>
+        <option value=
+        'a1.mp3'
+        >siren</option>
+        <option value=
+        'a2.mp3'
+        >bell</option>
+        <option value=
+        'a3.mp3'
+        >clock</option>
+    </select>
+    <button id="btn" onclick="set();">Set</button>
+    <div id="msg"></div>
+
+    <span id="name">AASHIS</span>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
